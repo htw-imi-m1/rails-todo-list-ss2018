@@ -4,7 +4,7 @@ class EntriesController < ApplicationController
   # GET /entries
   # GET /entries.json
   def index
-    @entries = Entry.all
+    @entries_categories = Entry.all.map{ |e| [e, e.category] }
   end
 
   # GET /entries/1

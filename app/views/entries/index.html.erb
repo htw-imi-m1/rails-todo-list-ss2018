@@ -14,12 +14,12 @@
   </thead>
 
   <tbody>
-    <% @entries.each do |entry| %>
+    <% @entries_categories.each do |entry, category| %>
       <tr>
         <td><%= entry.text %></td>
         <td><%= entry.due_date %></td>
         <td><%= entry.done %></td>
-        <td><%= entry.category %></td>
+        <td><%= category.name %></td>
         <td><%= link_to 'Show', entry %></td>
         <td><%= link_to 'Edit', edit_entry_path(entry) %></td>
         <td><%= link_to 'Destroy', entry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
