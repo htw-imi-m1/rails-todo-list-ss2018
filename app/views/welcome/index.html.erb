@@ -1,0 +1,14 @@
+<h1>Example App for M1 Web Technology</h1>
+<p>
+  The time is now: <%= Time.now %>
+</p>
+<p>
+  There are two resources: Entry and Category; with the following restful routes:
+
+<ul>
+  <li> <%= link_to 'GET	/entries(.:format)', entries_path %>
+      </li>
+      <li> <%= link_to 'GET	/categories(.:format)', categories_path %>
+  </li>
+</ul>
+<table>
