@@ -1,0 +1,11 @@
+As a user, I can create an Entry in the Todo List
+As a user, I can delete an Entry
+As a user, I can edit an Entry
+As a user, I can mark an Entry as done
+As a user, I can see a list of all Todo Entries.
+As a user, I can filter all todo entries by Category/Topic
+As a user, I can mark an entry as important.
+As a user, I can add a Category/Topic to an Todo Entry
+As a user, I can create a Category/Topic for Todo Entries.
+Todos can be sorted by due date.
+As a user, I can add a due date to a todo entry.
